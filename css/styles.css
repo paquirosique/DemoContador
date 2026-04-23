@@ -488,4 +488,16 @@ button:hover {
 .node-detail-row:last-child {
   border-bottom: none;
 }
+  .header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  background-color: #0f172a; /* oscuro elegante */
+  color: white;
+}
+
+.logo {
+  height: 40px;
+}
 }
