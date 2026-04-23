@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Inteligente</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+</head>
+<body>
+  <div class="page">
+
+    <div class="topbar">
+      <div class="tab active" data-tab="resumen">Resumen</div>
+      <div class="tab" data-tab="visitantes">Visitantes</div>
+      <div class="tab" data-tab="nodos">Por nodos</div>
+      <div class="tab" data-tab="tecnico">Técnico</div>
+    </div>
+
+    <div id="panel-resumen" class="panel active"></div>
+    <div id="panel-visitantes" class="panel"></div>
+    <div id="panel-nodos" class="panel"></div>
+    <div id="panel-tecnico" class="panel"></div>
+
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
